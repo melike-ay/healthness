@@ -1,0 +1,195 @@
+<resources>
+    <string name="app_name">healthness</string>
+    <string name="passname">Enter Password</string>
+    <string name="username">Enter Username</string>
+    <string name="mainphoto">healthy life</string>
+
+
+        <string name="navigation_drawer_open">Open drawer</string>
+        <string name="navigation_drawer_close">Close drawer</string>
+
+    <string name="legeasyD">Easy \n---------------------\n Bodyweight Squats:\n\n
+                Stand with feet shoulder-width apart.\n
+                Lower your body by bending your knees.\n
+                Keep your back straight and chest up.\n
+                Perform 2 sets of 12-15 reps.</string>
+
+    <string name="legmediumD">Medium \n---------------------\n Lunges:\n\n
+                Step forward with one leg and lower your hips.\n
+                Both knees should be bent at a 90-degree angle.\n
+                Push back up to the starting position.\n
+                Do 3 sets of 10-12 reps per leg.e</string>
+
+
+    <string name="leghardD">Hard \n---------------------\n Barbell Back Squats:\n\n
+                Place a barbell on your upper back.\n"
+                Squat down, keeping your chest up.\n"
+                Push through your heels to stand back up.\n"
+                Aim for 4 sets of 8-10 reps.</string>
+
+    <string name="chesteasyD">Easy \n---------------------\n Push-Ups:\n\n
+                Start in a plank position.\n
+                Lower your body by bending your elbows.\n
+                Push back up to the starting position.\n
+                Complete 2 sets of 10-15 reps.</string>
+
+    <string name="chestmediumD">Medium \n---------------------\n Dumbbell Bench Press:\n\n
+                Lie on a bench with dumbbells in hand.\n
+                Lower the dumbbells to chest level.\n
+                Push them back up.\n
+                Perform 3 sets of 8-12 reps.</string>
+
+    <string name="chesthardD">Hard \n---------------------\n Barbell Bench Press:\n\n
+                Lie on a bench with a barbell over your chest.\n
+                Lower the barbell to your chest.\n
+                Push it back up.\n
+                Aim for 4 sets of 6-8 reps.</string>
+
+    <string name="gluteseasyD">Easy \n---------------------\n Glute Bridges:\n\n
+                Lie on your back with knees bent and feet flat on the floor.\n
+                Lift your hips towards the ceiling.\n
+                Squeeze your glutes at the top.\n
+                Do 2 sets of 15-20 reps.</string>
+
+    <string name="glutesmediumD">Medium \n---------------------\n Bulgarian Split Squats:\n\n
+                Stand a few feet in front of a bench or step.\n
+                Place one foot behind you on the bench.\n
+                Lower your body into a lunge position.\n
+                Do 3 sets of 10-12 reps per leg.</string>
+
+    <string name="gluteshardD">Hard \n ---------------------\nBarbell Hip Thrusts:\n\n
+                Sit with your upper back against a bench and a barbell across your hips.\n
+                Lower your hips towards the floor and then thrust them up.\n
+                Aim for 4 sets of 8-10 reps.</string>
+
+    <string name="fulleasyD">Easy \n ---------------------\nJumping Jacks:\n\n
+                Jump while spreading arms and legs.\n
+                Return to the starting position.\n
+                Complete 2 sets of 1 minute each.</string>
+
+    <string name="fullmediumD">Medium \n---------------------\n Burpees:\n\n
+                Start with a squat, jump into a plank, do a push-up.\n
+                Jump back to a squat and explode up.\n
+                Perform 3 sets of 10 reps.</string>
+
+    <string name="fullhardD">Hard \n---------------------\n Clean and Jerk:\n\n
+                Lift a barbell from the ground to overhead.\n
+                Combines a deadlift, a clean, and a shoulder press.\n
+                Aim for 4 sets of 6-8 reps.</string>
+
+    <string name="glutenD">\n\n\n\nProteins:\n\n
+
+Chicken breast\n
+Turkey\n
+Eggs\n
+Fish and seafood\n
+Legumes (lentils, chickpeas)\n
+Quinoa\n\n\n
+
+Vegetables:\n\n
+Broccoli\n
+Spinach\n
+Kale\n
+Carrots\n
+Bell peppers\n
+Sweet potatoes\n\n\n
+Fruits:\n\n
+
+Berries (strawberries, blueberries)\n
+Apples\n
+Bananas\n
+Citrus fruits (oranges, grapefruits)\n\n\n
+Grains:\n\n
+
+Rice\n
+Corn\n
+Buckwheat\n
+Millet</string>
+
+    <string name="highproteinD">\n\n\n\nMeats:\n\n
+
+Chicken breast\n
+Turkey\n
+Lean beef\n
+Pork\n
+Fish (salmon, tuna)\n\n\n
+Dairy and Alternatives:\n\n
+
+Greek yogurt\n
+Cottage cheese\n
+Whey protein\n\n\n
+Legumes:\n\n
+
+Lentils\n
+Chickpeas\n
+Black beans\n\n\n
+Nuts and Seeds:\n\n
+
+Almonds\n
+Walnuts\n
+Chia seeds\n
+Flaxseeds</string>
+
+    <string name="lactoseD">\n\n\n\nLactose-Free Dairy:\n\n
+
+Lactose-free milk\n
+Lactose-free yogurt\n
+Hard cheeses (cheddar, Swiss)\n\n\n
+
+Non-Dairy Alternatives:\n\n
+Almond milk\n
+Coconut milk\n
+Soy milk\n
+Oat milk\n\n\n
+
+Proteins:\n\n
+Chicken\n
+Turkey\n
+Fish\n
+Eggs\n\n\n
+
+Vegetables:\n\n
+Leafy greens\n
+Zucchini\n
+Bell peppers\n
+Tomatoes\n\n\n
+Grains:\n\n
+
+Rice\n
+Quinoa\n
+Buckwheat</string>
+
+    <string name="ketoD">\n\n\n\nMeats:\n\n
+
+Beef\n
+Chicken\n
+Pork\n
+Lamb\n
+Fatty Fish\n
+Salmon\n
+Mackerel\n
+Sardines\n\n\n
+Low-Carb Vegetables:\n\n
+
+Spinach\n
+Broccoli\n
+Cauliflower\n
+Zucchini\n\n\n
+High-Fat Dairy:\n\n
+
+Butter\n
+Heavy cream\n
+Full-fat cheese\n\n\n
+Nuts and Seeds:\n\n
+
+Almonds\n
+Macadamia nuts\n
+Chia seeds\n
+Flaxseeds\n\n\n
+Healthy Fats:\n\n
+
+Avocado\n
+Olive oil\n
+Coconut oil</string>
+
+</resources>
