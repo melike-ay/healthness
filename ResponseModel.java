@@ -20,7 +20,7 @@ public class ResponseModel {
         private String name;
         private double calories;
 
-        // Constructor, getters, setters, etc.
+      
 
         public String getName() {
             return name;
