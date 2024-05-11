@@ -49,7 +49,7 @@ public class DataActivity extends AppCompatActivity {
         String username = editTextUsername.getText().toString().trim();
         String password = editTextPassword.getText().toString().trim();
 
-        // Check if the username already exists
+
         if (isUsernameExists(username)) {
             Toast.makeText(getApplicationContext(), "Username already exists", Toast.LENGTH_LONG).show();
         } else {
@@ -70,7 +70,7 @@ public class DataActivity extends AppCompatActivity {
         String username = editTextUsername.getText().toString().trim();
         String password = editTextPassword.getText().toString().trim();
 
-        // Check if the username and password match
+       
         if (isUserAuthenticated(username, password)) {
             startActivity(new Intent(DataActivity.this, MainActivity.class));
             finish();
@@ -80,7 +80,7 @@ public class DataActivity extends AppCompatActivity {
     }
 
     private boolean isUsernameExists(String username) {
-        // I query the database to check if the username already exists.
+       
         Cursor cursor = dbHelper.query(
                 new String[]{DBManager.ColUsername},
                 DBManager.ColUsername + "=?",
@@ -94,7 +94,7 @@ public class DataActivity extends AppCompatActivity {
     }
 
     private boolean isUserAuthenticated(String username, String password) {
-        //I query the database to check if the username and password match.
+      
         Cursor cursor = dbHelper.query(
                 new String[]{DBManager.ColUsername, DBManager.ColPassword},
                 DBManager.ColUsername + "=? AND " + DBManager.ColPassword + "=?",
