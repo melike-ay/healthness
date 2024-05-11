@@ -48,7 +48,7 @@ public class CalorieActivity extends AppCompatActivity {
         try {
             String encodedQuery = URLEncoder.encode(query, StandardCharsets.UTF_8.toString());
             ApiInterface apiInterface = ApiClient.getRetrofitInstance().create(ApiInterface.class);
-            Log.d("CalorieActivity", "Encoded Query: " + encodedQuery);  // Log encoded query
+            Log.d("CalorieActivity", "Encoded Query: " + encodedQuery);  
 
             Call<ResponseModel> call = apiInterface.getNutritionData(encodedQuery);
             call.enqueue(new Callback<ResponseModel>() {
