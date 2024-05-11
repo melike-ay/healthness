@@ -74,7 +74,7 @@ public class CalorieActivity extends AppCompatActivity {
 
                 @Override
                 public void onFailure(@NonNull Call<ResponseModel> call, @NonNull Throwable t) {
-                    // Handle API call failure
+                  
                     Log.e("CalorieActivity", "API Call Failure", t);
                     if (t instanceof HttpException) {
                         Response<?> response = ((HttpException) t).response();
@@ -94,7 +94,7 @@ public class CalorieActivity extends AppCompatActivity {
     private void displayApiResults(List<NutritionItem> items) {
         StringBuilder resultText = new StringBuilder();
 
-        // Iterate through the list of NutritionItems and append information to the resultText
+     
         for (NutritionItem item : items) {
             resultText.append("Name: ").append(item.getName()).append("\n");
             resultText.append("Calories: ").append(item.getCalories()).append("\n\n");
