@@ -16,7 +16,7 @@ public class ApiClient {
     private static Retrofit retrofit;
 
     private ApiClient() {
-        // Private constructor to prevent instantiation
+ 
     }
 
     public static synchronized Retrofit getRetrofitInstance() {
@@ -39,7 +39,7 @@ public class ApiClient {
     private static Response intercept(Interceptor.Chain chain) throws IOException {
         Request original = chain.request();
 
-        // Add API key as a header
+     
         Request request = original.newBuilder()
                 .header("X-Api-Key", ApiKeyManager.getInstance().getApiKey())
                 .build();
