@@ -5,10 +5,10 @@ import android.util.Log;
 public class ApiKeyManager {
 
     private static ApiKeyManager instance;
-    private static String apiKey = "kPXSG+u3LAVNImaE/0LiFg==yvdat5Fg2Xr9adRj";  // Initialize with your actual API key
+    private static String apiKey = "kPXSG+u3LAVNImaE/0LiFg==yvdat5Fg2Xr9adRj"; 
 
     private ApiKeyManager() {
-        // private constructor to enforce singleton pattern
+        
     }
 
     public static synchronized ApiKeyManager getInstance() {
