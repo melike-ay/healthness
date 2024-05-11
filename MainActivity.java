@@ -50,16 +50,12 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         Log.d("MainActivity", "Current API key: " + apiKey);
 
 
-     //  ApiKeyManager.getInstance().clearApiKey();
-        //Log.d("MainActivity", "API key cleared.");
-
-
 
     }
 
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
-        // Handled navigation view item clicks here.
+     
         int itemId = item.getItemId();
 
         if (itemId == R.id.menu_calorie) {
@@ -73,11 +69,11 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
             showMessage("Workouts are loading");
 
-            // Start MenuCategoryActivity and pass the category name
+         
             startActivity(new Intent(MainActivity.this, MenuActivity.class)
                     .putExtra("category", "Workout Recommendations"));
         } else if (itemId == R.id.menu_meal) {
-            // Handle the Meal plans category click
+     
             showMessage("Meal plans are loading");
 
 
@@ -85,7 +81,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                     .putExtra("category", "Meal Plans"));
         }
 
-        drawer.closeDrawers(); // Close the drawer after selecting an item
+        drawer.closeDrawers(); 
         return true;
     }
 
